@@ -9,12 +9,15 @@ import SwiftUI
 
 @main
 struct ArticlerApp: App {
+    
     let persistenceController = PersistenceController.shared
+    let articlesListFactory: ArticlesListFactory = ArticlesListFactoryImpl()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                articlesListFactory.createArticlesList()
+            }
         }
     }
 }
