@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct ArticlesContainer: Decodable {
+public struct ArticlesContainer: Decodable {
     
-    let totalResults: Int
-    let articles: [Article]
+    public let totalResults: Int
+    public let articles: [Article]
 }

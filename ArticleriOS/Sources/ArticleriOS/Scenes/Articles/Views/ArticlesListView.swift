@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct ArticlesListView: View {
+public struct ArticlesListView: View {
     
     @ObservedObject var viewModel: ArticlesListViewModel
 
-    var body: some View {
+    public var body: some View {
         contentView()
             .onAppear {
                 viewModel.handleEvent(.onAppear)

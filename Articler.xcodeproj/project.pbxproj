@@ -8,24 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CC06512F29D5DCDD00CE64DB /* ArticlerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06512E29D5DCDD00CE64DB /* ArticlerApp.swift */; };
-		CC06513129D5DCDD00CE64DB /* ArticlesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06513029D5DCDD00CE64DB /* ArticlesListView.swift */; };
 		CC06513329D5DCDE00CE64DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC06513229D5DCDE00CE64DB /* Assets.xcassets */; };
 		CC06513629D5DCDE00CE64DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC06513529D5DCDE00CE64DB /* Preview Assets.xcassets */; };
 		CC06513829D5DCDE00CE64DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06513729D5DCDE00CE64DB /* Persistence.swift */; };
 		CC06513B29D5DCDE00CE64DB /* Articler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC06513929D5DCDE00CE64DB /* Articler.xcdatamodeld */; };
-		CC06514529D5DCDE00CE64DB /* ArticlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06514429D5DCDE00CE64DB /* ArticlerTests.swift */; };
+		CC06514529D5DCDE00CE64DB /* ArticlesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06514429D5DCDE00CE64DB /* ArticlesListViewModelTests.swift */; };
 		CC06514F29D5DCDE00CE64DB /* ArticlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06514E29D5DCDE00CE64DB /* ArticlerUITests.swift */; };
 		CC06515129D5DCDE00CE64DB /* ArticlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06515029D5DCDE00CE64DB /* ArticlerUITestsLaunchTests.swift */; };
-		CC06516229D5E29A00CE64DB /* ArticlesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06516129D5E29A00CE64DB /* ArticlesListViewModel.swift */; };
-		CC06516429D5E3BC00CE64DB /* ArticlesListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06516329D5E3BC00CE64DB /* ArticlesListFactory.swift */; };
-		CC06516A29D5E73500CE64DB /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06516929D5E73500CE64DB /* Article.swift */; };
-		CC06516C29D5E75800CE64DB /* ArticlesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06516B29D5E75800CE64DB /* ArticlesContainer.swift */; };
-		CC35C6D129DAB923005BB38D /* ArticleCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6D029DAB923005BB38D /* ArticleCellView.swift */; };
-		CC35C6D529DACD88005BB38D /* NetworkingAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6D429DACD88005BB38D /* NetworkingAgent.swift */; };
-		CC35C6DB29DACE55005BB38D /* ArticlesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6DA29DACE55005BB38D /* ArticlesRequest.swift */; };
-		CC35C6DD29DAD266005BB38D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6DC29DAD266005BB38D /* APIConstants.swift */; };
-		CC35C6E029DAD2F2005BB38D /* ArticlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6DF29DAD2F2005BB38D /* ArticlesService.swift */; };
-		CC35C6E229DAD367005BB38D /* ApiArticlesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC35C6E129DAD367005BB38D /* ApiArticlesService.swift */; };
+		CC07AEFA29E6945D008C75EC /* ArticleriOS in Frameworks */ = {isa = PBXBuildFile; productRef = CC07AEF929E6945D008C75EC /* ArticleriOS */; };
+		CC770F9229DC333900D6EB94 /* ArticlesMock.json in Resources */ = {isa = PBXBuildFile; fileRef = CC770F9129DC333900D6EB94 /* ArticlesMock.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,28 +37,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC06512B29D5DCDD00CE64DB /* Articler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Articler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC06512E29D5DCDD00CE64DB /* ArticlerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlerApp.swift; sourceTree = "<group>"; };
-		CC06513029D5DCDD00CE64DB /* ArticlesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListView.swift; sourceTree = "<group>"; };
 		CC06513229D5DCDE00CE64DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC06513529D5DCDE00CE64DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC06513729D5DCDE00CE64DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CC06513A29D5DCDE00CE64DB /* Articler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Articler.xcdatamodel; sourceTree = "<group>"; };
-		CC06514029D5DCDE00CE64DB /* ArticlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC06514429D5DCDE00CE64DB /* ArticlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlerTests.swift; sourceTree = "<group>"; };
-		CC06514A29D5DCDE00CE64DB /* ArticlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC06514429D5DCDE00CE64DB /* ArticlesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewModelTests.swift; sourceTree = "<group>"; };
 		CC06514E29D5DCDE00CE64DB /* ArticlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlerUITests.swift; sourceTree = "<group>"; };
 		CC06515029D5DCDE00CE64DB /* ArticlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		CC06516129D5E29A00CE64DB /* ArticlesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListViewModel.swift; sourceTree = "<group>"; };
-		CC06516329D5E3BC00CE64DB /* ArticlesListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListFactory.swift; sourceTree = "<group>"; };
-		CC06516929D5E73500CE64DB /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		CC06516B29D5E75800CE64DB /* ArticlesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesContainer.swift; sourceTree = "<group>"; };
-		CC35C6D029DAB923005BB38D /* ArticleCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCellView.swift; sourceTree = "<group>"; };
-		CC35C6D429DACD88005BB38D /* NetworkingAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingAgent.swift; sourceTree = "<group>"; };
-		CC35C6DA29DACE55005BB38D /* ArticlesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesRequest.swift; sourceTree = "<group>"; };
-		CC35C6DC29DAD266005BB38D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
-		CC35C6DF29DAD2F2005BB38D /* ArticlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesService.swift; sourceTree = "<group>"; };
-		CC35C6E129DAD367005BB38D /* ApiArticlesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiArticlesService.swift; sourceTree = "<group>"; };
+		CC07AE8629E5A24F008C75EC /* Articler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Articler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC07AE8729E5A24F008C75EC /* ArticlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC07AE8829E5A24F008C75EC /* ArticlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC07AEF629E692D2008C75EC /* ArticlerKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ArticlerKit; sourceTree = "<group>"; };
+		CC07AEF729E692EF008C75EC /* ArticlerUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ArticlerUIKit; sourceTree = "<group>"; };
+		CC07AEF829E69303008C75EC /* ArticleriOS */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ArticleriOS; sourceTree = "<group>"; };
+		CC770F9129DC333900D6EB94 /* ArticlesMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ArticlesMock.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC07AEFA29E6945D008C75EC /* ArticleriOS in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,27 +83,22 @@
 		CC06512229D5DCDD00CE64DB = {
 			isa = PBXGroup;
 			children = (
+				CC07AEF829E69303008C75EC /* ArticleriOS */,
+				CC07AEF729E692EF008C75EC /* ArticlerUIKit */,
+				CC07AEF629E692D2008C75EC /* ArticlerKit */,
 				CC06512D29D5DCDD00CE64DB /* Articler */,
 				CC06514329D5DCDE00CE64DB /* ArticlerTests */,
 				CC06514D29D5DCDE00CE64DB /* ArticlerUITests */,
-				CC06512C29D5DCDD00CE64DB /* Products */,
+				CC07AE8629E5A24F008C75EC /* Articler.app */,
+				CC07AE8729E5A24F008C75EC /* ArticlerTests.xctest */,
+				CC07AE8829E5A24F008C75EC /* ArticlerUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		CC06512C29D5DCDD00CE64DB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CC06512B29D5DCDD00CE64DB /* Articler.app */,
-				CC06514029D5DCDE00CE64DB /* ArticlerTests.xctest */,
-				CC06514A29D5DCDE00CE64DB /* ArticlerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CC06512D29D5DCDD00CE64DB /* Articler */ = {
 			isa = PBXGroup;
 			children = (
-				CC06515D29D5E23A00CE64DB /* App */,
+				CC770F9029DC330B00D6EB94 /* MockData */,
 				CC06512E29D5DCDD00CE64DB /* ArticlerApp.swift */,
 				CC06513229D5DCDE00CE64DB /* Assets.xcassets */,
 				CC06513729D5DCDE00CE64DB /* Persistence.swift */,
@@ -139,7 +119,7 @@
 		CC06514329D5DCDE00CE64DB /* ArticlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CC06514429D5DCDE00CE64DB /* ArticlerTests.swift */,
+				CC06514429D5DCDE00CE64DB /* ArticlesListViewModelTests.swift */,
 			);
 			path = ArticlerTests;
 			sourceTree = "<group>";
@@ -153,134 +133,12 @@
 			path = ArticlerUITests;
 			sourceTree = "<group>";
 		};
-		CC06515D29D5E23A00CE64DB /* App */ = {
+		CC770F9029DC330B00D6EB94 /* MockData */ = {
 			isa = PBXGroup;
 			children = (
-				CC06516D29D5E7E000CE64DB /* Services */,
-				CC06516529D5E71A00CE64DB /* Core */,
-				CC06515E29D5E24500CE64DB /* Presentation */,
+				CC770F9129DC333900D6EB94 /* ArticlesMock.json */,
 			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		CC06515E29D5E24500CE64DB /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				CC06515F29D5E24F00CE64DB /* Scenes */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		CC06515F29D5E24F00CE64DB /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				CC06516029D5E25600CE64DB /* Articles */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		CC06516029D5E25600CE64DB /* Articles */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6CF29DAB8FB005BB38D /* Views */,
-				CC06516129D5E29A00CE64DB /* ArticlesListViewModel.swift */,
-				CC06516329D5E3BC00CE64DB /* ArticlesListFactory.swift */,
-			);
-			path = Articles;
-			sourceTree = "<group>";
-		};
-		CC06516529D5E71A00CE64DB /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6D229DACD6B005BB38D /* data */,
-				CC06516629D5E72600CE64DB /* domain */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		CC06516629D5E72600CE64DB /* domain */ = {
-			isa = PBXGroup;
-			children = (
-				CC06516729D5E72A00CE64DB /* model */,
-			);
-			path = domain;
-			sourceTree = "<group>";
-		};
-		CC06516729D5E72A00CE64DB /* model */ = {
-			isa = PBXGroup;
-			children = (
-				CC06516829D5E72E00CE64DB /* article */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		CC06516829D5E72E00CE64DB /* article */ = {
-			isa = PBXGroup;
-			children = (
-				CC06516929D5E73500CE64DB /* Article.swift */,
-				CC06516B29D5E75800CE64DB /* ArticlesContainer.swift */,
-			);
-			path = article;
-			sourceTree = "<group>";
-		};
-		CC06516D29D5E7E000CE64DB /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6DE29DAD2D8005BB38D /* Articles */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		CC35C6CF29DAB8FB005BB38D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				CC06513029D5DCDD00CE64DB /* ArticlesListView.swift */,
-				CC35C6D029DAB923005BB38D /* ArticleCellView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		CC35C6D229DACD6B005BB38D /* data */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6D329DACD72005BB38D /* api */,
-			);
-			path = data;
-			sourceTree = "<group>";
-		};
-		CC35C6D329DACD72005BB38D /* api */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6D729DACE24005BB38D /* request */,
-				CC35C6D629DACE1B005BB38D /* network */,
-				CC35C6DC29DAD266005BB38D /* APIConstants.swift */,
-			);
-			path = api;
-			sourceTree = "<group>";
-		};
-		CC35C6D629DACE1B005BB38D /* network */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6D429DACD88005BB38D /* NetworkingAgent.swift */,
-			);
-			path = network;
-			sourceTree = "<group>";
-		};
-		CC35C6D729DACE24005BB38D /* request */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6DA29DACE55005BB38D /* ArticlesRequest.swift */,
-			);
-			path = request;
-			sourceTree = "<group>";
-		};
-		CC35C6DE29DAD2D8005BB38D /* Articles */ = {
-			isa = PBXGroup;
-			children = (
-				CC35C6DF29DAD2F2005BB38D /* ArticlesService.swift */,
-				CC35C6E129DAD367005BB38D /* ApiArticlesService.swift */,
-			);
-			path = Articles;
+			path = MockData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +157,11 @@
 			dependencies = (
 			);
 			name = Articler;
+			packageProductDependencies = (
+				CC07AEF929E6945D008C75EC /* ArticleriOS */,
+			);
 			productName = Articler;
-			productReference = CC06512B29D5DCDD00CE64DB /* Articler.app */;
+			productReference = CC07AE8629E5A24F008C75EC /* Articler.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CC06513F29D5DCDE00CE64DB /* ArticlerTests */ = {
@@ -318,7 +179,7 @@
 			);
 			name = ArticlerTests;
 			productName = ArticlerTests;
-			productReference = CC06514029D5DCDE00CE64DB /* ArticlerTests.xctest */;
+			productReference = CC07AE8729E5A24F008C75EC /* ArticlerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CC06514929D5DCDE00CE64DB /* ArticlerUITests */ = {
@@ -336,7 +197,7 @@
 			);
 			name = ArticlerUITests;
 			productName = ArticlerUITests;
-			productReference = CC06514A29D5DCDE00CE64DB /* ArticlerUITests.xctest */;
+			productReference = CC07AE8829E5A24F008C75EC /* ArticlerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -371,7 +232,7 @@
 				Base,
 			);
 			mainGroup = CC06512229D5DCDD00CE64DB;
-			productRefGroup = CC06512C29D5DCDD00CE64DB /* Products */;
+			productRefGroup = CC06512229D5DCDD00CE64DB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -388,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC06513629D5DCDE00CE64DB /* Preview Assets.xcassets in Resources */,
+				CC770F9229DC333900D6EB94 /* ArticlesMock.json in Resources */,
 				CC06513329D5DCDE00CE64DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,20 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC35C6D129DAB923005BB38D /* ArticleCellView.swift in Sources */,
-				CC06516A29D5E73500CE64DB /* Article.swift in Sources */,
 				CC06513829D5DCDE00CE64DB /* Persistence.swift in Sources */,
-				CC06513129D5DCDD00CE64DB /* ArticlesListView.swift in Sources */,
 				CC06512F29D5DCDD00CE64DB /* ArticlerApp.swift in Sources */,
-				CC06516C29D5E75800CE64DB /* ArticlesContainer.swift in Sources */,
-				CC06516229D5E29A00CE64DB /* ArticlesListViewModel.swift in Sources */,
 				CC06513B29D5DCDE00CE64DB /* Articler.xcdatamodeld in Sources */,
-				CC35C6E029DAD2F2005BB38D /* ArticlesService.swift in Sources */,
-				CC35C6DD29DAD266005BB38D /* APIConstants.swift in Sources */,
-				CC06516429D5E3BC00CE64DB /* ArticlesListFactory.swift in Sources */,
-				CC35C6D529DACD88005BB38D /* NetworkingAgent.swift in Sources */,
-				CC35C6DB29DACE55005BB38D /* ArticlesRequest.swift in Sources */,
-				CC35C6E229DAD367005BB38D /* ApiArticlesService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC06514529D5DCDE00CE64DB /* ArticlerTests.swift in Sources */,
+				CC06514529D5DCDE00CE64DB /* ArticlesListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,6 +602,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC07AEF929E6945D008C75EC /* ArticleriOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ArticleriOS;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CC06513929D5DCDE00CE64DB /* Articler.xcdatamodeld */ = {

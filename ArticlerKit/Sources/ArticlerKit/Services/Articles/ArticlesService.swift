@@ -7,7 +7,7 @@
 
 import Combine
 
-protocol ArticlesService: AnyObject {
+public protocol ArticlesService: AnyObject {
     
     func fetchArticles() -> AnyPublisher<ArticlesContainer, Error>
 }

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ArticleriOS
 
 @main
 struct ArticlerApp: App {

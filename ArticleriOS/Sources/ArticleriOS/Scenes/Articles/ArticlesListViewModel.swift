@@ -7,6 +7,7 @@
 
 import Foundation
 import Combine
+import ArticlerKit
 
 final class ArticlesListViewModel: ObservableObject {
     
